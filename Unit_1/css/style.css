@@ -1,7 +1,9 @@
 body {
 	background-color: red;
+	color:purple;
+	font-family:helvetica, sans-serif;
+	line-height:1.3;
 }
-
-h1, p {
-	color: purple;
+h1 {
+	font-family:georgia, serif;
 }
