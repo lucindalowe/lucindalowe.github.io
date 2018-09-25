@@ -1,7 +1,9 @@
 body 
 {
-	background: url("images/EventPreparation.jpg");
+	background-image: url("/Users/lowelucinda/Documents/GitHub/lucindalowe.github.io/Unit_1/images/EventPreparation.jpg");
+	background-color:rgb(0,0,0);
 	font-family:Din, sans-serif;
+	color:rgb(255,255,250);
 	line-height:1.9;
 }
 nav {text-transform: right;
@@ -11,7 +13,6 @@ h1 {
 	font-family:Din, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
-	color:rgb(255,255,255);
 	font-size: 30px;
 	text-align: center;
 	letter-spacing: 1.5px;
