@@ -15,7 +15,7 @@ body
 }
 nav {text-transform: right;
 }
-
+	
 h1 {
 	font-family:Din, sans-serif;
 	text-transform: uppercase;
@@ -24,6 +24,7 @@ h1 {
 	text-align: left;
 	letter-spacing: 0.5px;
 }
+
 h2 {font-family: Adobe Caslon Pro, serif;
 	font-style: italic;
 	font-weight:bold;
@@ -34,7 +35,7 @@ h2 {font-family: Adobe Caslon Pro, serif;
 
 h3 {font-family: Din, sans-serif;
 	text-transform: uppercase;
-	text-align: right;
+	text-align: center;
 	letter-spacing: 1px;
 	font-weight:bold;
 	font-size: 16px;
@@ -49,7 +50,19 @@ h4 {font-family: Din, sans-serif;
 p {font-family: Chronicle, serif;
 	font-size: 12px;
 	text-align: center;
-	letter-spacing: 1px
-;
+	letter-spacing: 1px;
+}
+ul {font-family: Adobe Caslon Pro, serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
 
+
+p.price {
+	font-family: Din, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(50,150,50);
+	text-transform: uppercase;
 }
