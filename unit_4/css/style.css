@@ -1,0 +1,67 @@
+body 
+/*{
+	background-image: url("/Users/lowelucinda/Documents/GitHub/lucindalowe.github.io/Unit_3/images/DesertBike.png") ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+  	justify-content: center;
+	background-color:rgb(250,250,250);
+	font-family:Din, sans-serif;
+	color:rgb(0);
+	line-height:1.9;
+	padding-top: 40px;
+}*/
+
+
+}
+nav {text-transform: right;
+}
+	
+h1 {
+	font-family:Din, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: left;
+	letter-spacing: 0.5px;
+}
+
+h2 {font-family: Adobe Caslon Pro, serif;
+	font-style: italic;
+	font-weight:bold;
+	text-align: left;
+	font-size: 18px;
+	display: inline;
+	}
+
+h3 {font-family: Din, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight:bold;
+	font-size: 16px;
+}
+
+h4 {font-family: Din, sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 16px;
+	}
+
+p {font-family: Chronicle, serif;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+ul {font-family: Adobe Caslon Pro, serif;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.price {
+	font-family: Din, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(50,150,50);
+	text-transform: uppercase;
+}
