@@ -1,6 +1,6 @@
 body 
-/*{
-	background-image: url("/Users/lowelucinda/Documents/GitHub/lucindalowe.github.io/Unit_3/images/DesertBike.png") ;
+{
+	background-image: url("/Users/lowelucinda/Documents/GitHub/lucindalowe.github.io/unit_4/images/DesertBike.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
   	justify-content: center;
@@ -9,59 +9,145 @@ body
 	color:rgb(0);
 	line-height:1.9;
 	padding-top: 40px;
-}*/
-
-
 }
-nav {text-transform: right;
-}
-	
-h1 {
-	font-family:Din, sans-serif;
+#logosubheading 
+{	font-family:Roboto, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 10px;
 	text-align: left;
 	letter-spacing: 0.5px;
 }
-
-h2 {font-family: Adobe Caslon Pro, serif;
-	font-style: italic;
-	font-weight:bold;
-	text-align: left;
-	font-size: 18px;
-	display: inline;
-	}
-
-h3 {font-family: Din, sans-serif;
-	text-transform: uppercase;
-	text-align: center;
-	letter-spacing: 1px;
-	font-weight:bold;
-	font-size: 16px;
-}
-
-h4 {font-family: Din, sans-serif;
-	text-transform: uppercase;
+#h1subheading {font-family: Roboto, sans-serif;
+	font-size: 20px;
 	font-weight: normal;
-	font-size: 16px;
-	}
-
-p {font-family: Chronicle, serif;
-	font-size: 12px;
 	text-align: center;
+	color: rgb(255,255,255);
+	letter-spacing: 1px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+nav {text-transform: right;
+}
+.container {
+	position:relative;
+	width: 100%;
+/*	padding-top: 30%;*/
+}
+.subheading {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	bottom: 20px;
+	left: 0px;
+	right: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	color: rgb(255,255,255);
 	letter-spacing: 1px;
 }
+.explorecta {
+	background-color: rgb(232,105,21);
+	width: 100px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+h1 {
+	font-family: Roboto, sans-serif;
+	color: rgba(255,255,255);
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 32px;
+}
+h2 {font-family: 'Roboto', sans-serif;
+	color: rgba(232,105,21);
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px;
+	margin-left: 30px;
+	padding-top: 20px;
+	}
+h3 {font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 30px;
+	letter-spacing: 2px;
+	font-weight:normal;
+	font-size: 16px;
+}
+h4 {font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 30px;
+	}
+
 ul {font-family: Adobe Caslon Pro, serif;
 	font-style: italic;
 	font-weight: bold;
 	text-align: center;
 }
-
-p.price {
-	font-family: Din, sans-serif;
+.testimonial{
+	font-family: Adobe Caslon Pro, serif;
+	font-style: italic;
 	font-weight: bold;
+	text-align: center;
 	font-size: 20px;
-	color: rgb(50,150,50);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+.testimonialparticipantname{
+	font-family: Roboto, sans-serif;
 	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-weight:normal;
+	font-size: 14px;
+	color: rgb(150,150,150);
+}
+.para{
+	font-family: Roboto, sans-serif;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: rgb(0,0,0);
+	margin-left: 30px;
+	width: 30%;
+	height: 30%;;
+}
+.homepageinfoblock {
+	background-color: rgb(200,200,200);
+}
+.homepagesocial {
+	background-color: black;
+}
+.asfeaturedin {
+	background-color: rgb(200,200,200);
+}
+#signup {
+	background-color: rgba(232,105,21);
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	font-size: 12px;
+	padding-left: 20%;
+	padding-top: 20px;
+}
+#contactandinfo {
+	background-color: rgba(85,86,90);
+	color: white;
+	text-align: left;
+	font-size: 12px;
+	padding-left: 20%;
+	padding-top: 20px;
 }
