@@ -1,0 +1,69 @@
+body {
+	background-image: url("/Users/lowelucinda/Documents/GitHub/lucindalowe.github.io/unit_5/images/DesertBike.png");
+	background-size: cover; height: 40px; 
+	background-repeat: no-repeat;
+}
+.navigationlinks {
+	text-align: right;
+	font-family: DINNextLTPro-Bold; san-serif;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: black;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+h1 {text-align: center;
+	font-family: DINNextLTPro-Regular; san-serif;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: normal;
+	color: white;
+	letter-spacing: 1px;
+	padding-top: 50px;
+}
+h2 {text-align: center;
+	font-family: DINNextLTPro-Regular; san-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+	letter-spacing: 1px;
+}
+nav {
+	font-family: DINNextLTPro-Regular; san-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: black;
+}
+p {	font-family: DINNextLTPro-Regular; san-serif;
+	font-size: 14px;
+}
+#ultimateadventureweekends {
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.challenges {
+	font-family: DINNextLTPro-Regular; san-serif;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.explorelink {
+	font-family: DINNextLTPro-Regular; san-serif;
+	color: white;
+	padding: 7px 15px 5px 15px;
+	background-color: rgb(232,105,21);
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	font-size: 10px;
+	align-content: center;
+}
