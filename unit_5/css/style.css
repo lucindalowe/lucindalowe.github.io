@@ -2,13 +2,18 @@ body {
 	background-image: url("../images/DesertBike.png");
 	background-size: cover; height: 30em; 
 	background-repeat: no-repeat;
+	margin: auto;
 	font-family: DinNextLTPro-Regular, sans serif;
+}
+#tagline {	
+	font-family: DinNextLTPro-Bold, sans serif;
+	font-weight: bold;
 }
 .navigationlinks {
 	font-family: DinNextLTPro-Bold, sans serif;
-	text-align: right;
+	float: right;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 1em;
 	color: black;
 	letter-spacing: 1px;
 	text-decoration: none;
@@ -17,7 +22,7 @@ h1 {
 	font-family: DinNextLTPro-Bold, sans serif;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 2em;
 	font-weight: normal;
 	color: white;
 	letter-spacing: 1px;
@@ -26,36 +31,55 @@ h1 {
 h2 {text-align: center;
 	font-weight: normal;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 2em;
 	color: white;
 	letter-spacing: 1px;
 }
 nav {
 	font-weight: normal;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 1em;
 	color: black;
 }
 p {
-	font-size: 14px;
+	font-size: 1em;
+	padding-right: 80px;
+	padding-left: 25px;
 }
 #ultimateadventureweekends {
 	text-align: center;
-	font-size: 14px;
+	font-size: 1.2em;
 	color: white;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 .challenges {
 	font-family: DINNextLTPro-Regular, san-serif;
 	text-align: center;
-	font-size: 12px;
+	font-size: 1.2em;
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
 }
 #testimonials {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Crimson Text 400i', serif;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.2em;
+	color:black;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+em {
+	font-family: 'Montserrat', serif;
+	font-style: normal;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: rgb(150,150,150);
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 .explorelink {
 	font-family: DINNextLTPro-Regular; san-serif;
@@ -67,6 +91,18 @@ p {
 	display: inline-block;
 	letter-spacing: 1px;
 	border-radius: 4px;
-	font-size: 10px;
+	font-size: 1em;
+	align-content: center;
+}
+h3 {
+	margin-left: 25px;
+	color: rgb(232,105,21);
+	text-transform: uppercase;
+}
+h4,h5 {
+	text-transform: uppercase;
+	margin-left: 25px;
+}
+#asfeaturedin {
 	align-content: center;
 }
