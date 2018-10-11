@@ -95,6 +95,7 @@ em {
 	align-content: center;
 }
 h3 {
+	font-size: 1em;
 	margin-left: 25px;
 	color: rgb(232,105,21);
 	text-transform: uppercase;
@@ -104,5 +105,14 @@ h4,h5 {
 	margin-left: 25px;
 }
 #asfeaturedin {
-	align-content: center;
+}
+#followus {
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+	background-color: black;
+}
+.homepageinformationblocks {
+	background-color: rgb(200,200,200);
+	padding-top: 1em;
+	padding-bottom: 1.5em;
 }
