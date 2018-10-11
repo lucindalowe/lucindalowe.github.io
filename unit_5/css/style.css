@@ -1,19 +1,21 @@
 body {
 	background-image: url("../images/DesertBike.png");
-	background-size: cover; height: 40px; 
+	background-size: cover; height: 30em; 
 	background-repeat: no-repeat;
+	font-family: DinNextLTPro-Regular, sans serif;
 }
 .navigationlinks {
+	font-family: DinNextLTPro-Bold, sans serif;
 	text-align: right;
-	font-family: DINNextLTPro-Bold; san-serif;
 	text-transform: uppercase;
-	font-size: 10px;
+	font-size: 16px;
 	color: black;
 	letter-spacing: 1px;
 	text-decoration: none;
 }
-h1 {text-align: center;
-	font-family: DINNextLTPro-Regular; san-serif;
+h1 {
+	font-family: DinNextLTPro-Bold, sans serif;
+	text-align: center;
 	text-transform: uppercase;
 	font-size: 22px;
 	font-weight: normal;
@@ -22,7 +24,6 @@ h1 {text-align: center;
 	padding-top: 50px;
 }
 h2 {text-align: center;
-	font-family: DINNextLTPro-Regular; san-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 	font-size: 18px;
@@ -30,13 +31,12 @@ h2 {text-align: center;
 	letter-spacing: 1px;
 }
 nav {
-	font-family: DINNextLTPro-Regular; san-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 	font-size: 12px;
 	color: black;
 }
-p {	font-family: DINNextLTPro-Regular; san-serif;
+p {
 	font-size: 14px;
 }
 #ultimateadventureweekends {
@@ -47,12 +47,15 @@ p {	font-family: DINNextLTPro-Regular; san-serif;
 	padding-right: 50px;
 }
 .challenges {
-	font-family: DINNextLTPro-Regular; san-serif;
+	font-family: DINNextLTPro-Regular, san-serif;
 	text-align: center;
 	font-size: 12px;
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+#testimonials {
+	font-family: 'Crimson Text', serif;
 }
 .explorelink {
 	font-family: DINNextLTPro-Regular; san-serif;
