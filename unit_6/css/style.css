@@ -36,6 +36,7 @@ nav a {
 	font-weight: bold;
 	float: right;
 	margin-left: 10px;
+	margin-right: 10px;
 	font-size: 0.8em;
 	padding: 5px;
 	display: inline-block;
@@ -53,6 +54,7 @@ h1 {
 	color: white;
 	letter-spacing: 1px;
 	padding-top: 200px;
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.5));
 }
 
 h2 {text-align: center;
@@ -101,6 +103,7 @@ p {
 	padding-top: 20px;
 	padding-left: 200px;
 	padding-right: 200px;
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.5));
 }
 
 img {
