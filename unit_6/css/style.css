@@ -4,7 +4,7 @@
 }
 
 body {
-	background-image: url("/Users/lowelucinda/Documents/GitHub/lucindalowe.github.io/unit_4/images/DesertBike.png");
+	background-image: url("../images/DesertBike.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
   	justify-content: center;
