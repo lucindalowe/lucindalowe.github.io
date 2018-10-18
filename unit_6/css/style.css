@@ -3,14 +3,10 @@
 	margin: 0;
 	box-sizing:border-box;
 }
-
-
 @font-face {
 	font-family: "DinNextLTPro-Regular";
 	src: url("../fonts/DINNextLTPro-Regular.ttf");
 }
-
-
 body {
 	font-size: 20px;
 	color: #222222;
