@@ -3,26 +3,26 @@
 	margin: 0;
 	box-sizing:border-box;
 }
+
+
+@font-face {
+	font-family: "DinNextLTPro-Regular";
+	src: url("../fonts/DINNextLTPro-Regular.ttf");
+}
+
+
 body {
 	font-size: 20px;
 	color: #222222;
 	line-height: 1.3;
-<<<<<<< HEAD
 	padding-bottom: 50px;
-=======
->>>>>>> c179a852f1c890bba381c4b102efe420ff228077
-	font-family: DinNextLTPro-Regular, sans-serif;
+	font-family: DinNextLTPro-Regular, cursive;
 }
 header 	{padding: 0 1em;}
 header img {
 	float: left;
 }
-<<<<<<< HEAD
-
-#tagline {	
-=======
 #tagline {
->>>>>>> c179a852f1c890bba381c4b102efe420ff228077
 	font-family: DinNextLTPro-Bold, sans-serif;
 	font-weight: bold;
 	font-size: 16px;
@@ -70,6 +70,7 @@ h3 {
 	margin-left: 25px;
 	color: rgb(232,105,21);
 	text-transform: uppercase;
+	text-align: left;
 /*	padding-bottom: 5px;*/
 }
 
@@ -78,21 +79,15 @@ h4,h5 {
 	font-size: 0.8em;
 }
 h4 {
+	margin-left: 25px;
 	font-size: 1.1em;
 	padding-top: 1em;
+	text-align: left;
 }
 h5 {
 	font-family: DinNextLTPro-Bold, sans-serif;
 }
-#ultimateadventureweekends {
-	text-align: center;
-	font-size: 1.2em;
-	color: white;
-	padding-top: 20px;
-	padding-left: 200px;
-	padding-right: 200px;
-	text-shadow:2px 2px 1px rgba(0,0,0,0.5);
-}
+
 .challenges {
 	font-family: DINNextLTPro-Regular, sans-serif;
 	text-align: center;
@@ -121,8 +116,12 @@ h5 {
 	line-height: 1.5em;
 	text-align: center;
 	font-size: 1em;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
-em {
+cite {
 	font-family: 'Montserrat', serif;
 	font-style: normal;
 	font-size: 0.8em;
@@ -130,7 +129,6 @@ em {
 	color: rgb(150,150,150);
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	padding-top: 5px;
 }
 
 .explorelink {
@@ -149,7 +147,7 @@ em {
 #asfeaturedin {
 	background-color: rgb(200,200,200);
 	text-align: center;
-	padding: 20px;
+	padding-top: 25px;
 }
 
 #followus {
@@ -158,13 +156,21 @@ em {
 	background-color: black;
 	text-align: center;
 }
+#followus img {
+	padding-left: 25px;
+	size: 1%;
+}
 
-.homepageinformationblocks {text-align: center;}
+.homepageinformationblocks {
+	text-align: center;
+	background-color: rgb(200,200,200);
+}
 
 .column {
 	width: 50%;
 	padding: 2em;
 	float: left;
+	text-align: left;
 }
 .column2 {
 	padding:20px;
@@ -213,5 +219,23 @@ label {
 }
 #information {
     background: #c8c8c8;
-    padding: 4em 0;
+    padding: 2em 0;
+}
+
+#weekendadventures {
+	background-size:50%;
+	background-repeat:no-repeat;
+	float: left;
+	height: 25vh;
+}
+
+#ultimateadventureweekends {
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-shadow:2px 2px 1px rgba(0,0,0,0.5);
+	float: left;
 }
