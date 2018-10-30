@@ -1,11 +1,11 @@
+@font-face {
+	font-family: "DinNextLTPro-Regular";
+	src: url("fonts/DINNextLTPro-Regular.ttf");
+}
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing:border-box;
-}
-@font-face {
-	font-family: "DinNextLTPro-Regular";
-	src: url("../fonts/DINNextLTPro-Regular.ttf");
 }
 body {
 	font-size: 20px;
@@ -14,7 +14,9 @@ body {
 	padding-bottom: 50px;
 	font-family: DinNextLTPro-Regular, cursive;
 }
-header 	{padding: 0 1em;}
+header 	{
+	padding: 0 1em;
+}
 header img {
 	float: left;
 }
@@ -83,7 +85,17 @@ h4 {
 h5 {
 	font-family: DinNextLTPro-Bold, sans-serif;
 }
+#ultimateadventureweekends {
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	padding-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	text-shadow:2px 2px 1px rgba(0,0,0,0.5);
+	float: left;
 
+}
 .challenges {
 	font-family: DINNextLTPro-Regular, sans-serif;
 	text-align: center;
@@ -92,6 +104,13 @@ h5 {
 	text-shadow:2px 2px 1px rgba(0,0,0,0.5);
 	float: left;
 }
+.challengesdiv {
+	position: relative;
+/*	top: 25%;
+	left: 25%;*/
+	transform: translateY(50%);
+}
+
 .challenges img {
 	width:100%;
 }
@@ -225,13 +244,3 @@ label {
 	height: 25vh;
 }
 
-#ultimateadventureweekends {
-	text-align: center;
-	font-size: 1.2em;
-	color: white;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	text-shadow:2px 2px 1px rgba(0,0,0,0.5);
-	float: left;
-}
