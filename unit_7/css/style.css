@@ -61,6 +61,7 @@ h2 {
 	font-size: 1.5em;
 	color: white;
 	letter-spacing: 1px;
+	display: inline-block;
 }
 h3 {
 	font-family: DinNextLTPro-Bold, sans-serif;
@@ -71,18 +72,15 @@ h3 {
 	text-align: left;
 /*	padding-bottom: 5px;*/
 }
-
-h4,h5 {
-	text-transform: uppercase;
-	font-size: 0.8em;
-}
 h4 {
+	text-transform: uppercase;
 	margin-left: 25px;
 	font-size: 1.1em;
 	padding-top: 1em;
 	text-align: left;
 }
 h5 {
+	text-transform: uppercase;
 	font-family: DinNextLTPro-Bold, sans-serif;
 }
 #ultimateadventureweekends {
@@ -158,6 +156,7 @@ cite {
 	border-radius: 4px;
 	font-size: 0.6em;
 }
+
 #asfeaturedin {
 	background-color: rgb(200,200,200);
 	text-align: center;
@@ -179,7 +178,7 @@ cite {
 }
 .column {
 	width: 50%;
-	padding: 2em;
+	padding: 25px;
 	float: left;
 	text-align: left;
 }
@@ -197,13 +196,14 @@ cite {
 }
 #IGOVideoembedded img {
 	width:100%;
+	display:block;
 }
 label {
-	display:block;
+	display:inline-block;
 }
 #signup {
 	background-color: rgb(232,105,21);
-	padding: 4em 0;
+	padding: 2em;
 	color: white;
 	text-transform: uppercase;
 	font-size: 0.8em;
